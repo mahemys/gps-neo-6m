@@ -1,5 +1,4 @@
 # Neo 6m GPS Serial Direct
-
 - neo6mgps_serial_direct.py
 - created by mahemys; 2019.08.28
 - !perfect, but works!
@@ -24,6 +23,15 @@
 - first convert db to csv; neo6mgps_db.db -> neo6mgps.csv
 - run `neo6mgps_plot_uptime.py` to generate **uptime graphs** like No of Satellites; No of Records
 - run `neo6mgps_plot_blackouts.py` to generate **downtime or blackouts graphs** like Blackouts duration; Total No of Blackouts
+
+**sample**
+- csv file       neo6mgps.csv
+- uptime graph   Neo-6m_GPS_Uptime.png
+- downtime graph Neo-6m_GPS_Blackouts.png
+
+**Uptime graph** ![Alt text](/sample/Neo-6m_GPS_Uptime.png)
+
+**Downtime or Blackouts graph** ![Alt text](/sample/Neo-6m_GPS_Blackouts.png)
 
 **NMEA sentences**
 - GGA - essential fix data which provide 3D location and accuracy data.
