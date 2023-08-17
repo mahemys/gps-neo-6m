@@ -21,6 +21,8 @@
 
 **process**
 - using serial port communication save gps data into the database
+- run `neo6mgps_plot_uptime.py` to generate **uptime graphs** like No of Satellites; No of Records
+- run `neo6mgps_plot_blackouts.py` to generate **downtime or blackouts graphs** like Blackouts duration; Total No of Blackouts
 
 **NMEA sentences**
 - GGA - essential fix data which provide 3D location and accuracy data.
