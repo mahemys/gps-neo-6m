@@ -1,4 +1,4 @@
-#neo6mgps_plot_blackouts
+#neo 6m gps plot blackouts
 '''
 # neo6mgps_plot_blackouts.py
 # created by mahemys; 2019.09.08
@@ -12,7 +12,7 @@
 # 
 #------------------------------------------------------------
 # process
-# first convert neo6mgps_db.db to neo6mgps.csv
+# first convert db to csv; neo6mgps_db.db -> neo6mgps.csv
 # run this script to generate downtime or blackouts graphs
 # 
 #------------------------------------------------------------
