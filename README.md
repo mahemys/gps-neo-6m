@@ -1,6 +1,6 @@
-# Serial Neo 6m GPS direct
+# Neo 6m GPS Serial Direct
 
-- Serial_Neo6mGPS_direct.py
+- neo6mgps_serial_direct.py
 - created by mahemys; 2019.08.28
 - !perfect, but works!
 - GNU-GPL; no license; free to use!
@@ -21,6 +21,7 @@
 
 **process**
 - using serial port communication save gps data into the database
+- first convert db to csv; neo6mgps_db.db -> neo6mgps.csv
 - run `neo6mgps_plot_uptime.py` to generate **uptime graphs** like No of Satellites; No of Records
 - run `neo6mgps_plot_blackouts.py` to generate **downtime or blackouts graphs** like Blackouts duration; Total No of Blackouts
 
